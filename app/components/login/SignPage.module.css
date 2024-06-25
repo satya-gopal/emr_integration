@@ -1,0 +1,212 @@
+.labsquireLogoIcon {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  height: 40.1px;
+  flex-shrink: 0;
+}
+.paragraph,
+.title {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+}
+.title {
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.paragraph {
+  font-size: var(--font-size-lg);
+  color: var(--color-dimgray-100);
+}
+.titlecontent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.inputTypeEmail {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-100);
+}
+.forgotPassword {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 100%;
+  font-weight: 500;
+  font-family: inherit;
+}
+.forgotpassword {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.inputcontent,
+.loginformcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.inputcontent {
+  align-self: stretch;
+  gap: var(--gap-base);
+  text-align: right;
+  font-size: var(--font-size-base-8);
+  color: var(--color-crimson);
+}
+.loginformcontent {
+  gap: var(--gap-13xl);
+}
+.loginbutton,
+.loginformcontent {
+  align-self: stretch;
+}
+.loginform,
+.logingroup {
+  justify-content: flex-start;
+}
+.logingroup {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  max-width: 500px;
+}
+.loginform {
+  align-self: stretch;
+  padding: 0 var(--padding-5xl);
+}
+.formcontent,
+.formsection,
+.loginform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formcontent {
+  align-self: stretch;
+  justify-content: center;
+  gap: 184px;
+}
+.formsection {
+  flex: 1;
+  height: 863px;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) 0 var(--padding-5xl) var(--padding-31xl);
+  box-sizing: border-box;
+}
+.thumbimageIcon {
+  width: 26.5px;
+  position: relative;
+  height: 26.5px;
+  object-fit: cover;
+}
+.title2 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 100%;
+  font-weight: 400;
+  font-family: inherit;
+}
+.title1,
+.titleheading {
+  display: flex;
+  justify-content: flex-start;
+}
+.titleheading {
+  border-radius: var(--br-xs);
+  background-color: var(--color-crimson-100);
+  flex-direction: row;
+  align-items: center;
+  padding: 14.4px;
+  gap: 14.4px;
+}
+.title1 {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.paragraph1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 140%;
+  font-family: var(--font-poppins);
+}
+.infocontent,
+.infogroup {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.infocontent {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  gap: 28.8px;
+}
+.infogroup {
+  width: 500px;
+  backdrop-filter: blur(100px);
+  border-radius: var(--br-xl);
+  background-color: rgba(255, 242, 242, 0.13);
+  overflow: hidden;
+  padding: var(--padding-23xl) 37px;
+  box-sizing: border-box;
+  max-width: 500px;
+}
+.imagesection,
+.infogroup,
+.signIn,
+.signpage {
+  display: flex;
+  justify-content: flex-start;
+}
+.imagesection {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 629px 48px var(--padding-45xl) var(--padding-45xl);
+  background-image: url(/public/imagesection@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-size: var(--font-size-base-8);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}
+.signIn,
+.signpage {
+  align-items: flex-start;
+}
+.signIn {
+  align-self: stretch;
+  background-color: var(--color-white);
+  flex-direction: row;
+}
+.signpage {
+  width: 1920px;
+  max-width: 100%;
+  flex-direction: column;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

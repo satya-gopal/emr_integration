@@ -1,0 +1,62 @@
+.labsquireLogo011,
+.notificationIcon {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.labsquireLogo011 {
+  width: 160px;
+  height: 33px;
+  object-fit: cover;
+}
+.notificationIcon {
+  width: 26.9px;
+  height: 27.8px;
+}
+.avatarProfileIcon {
+  width: 30px;
+  position: relative;
+  border-radius: 50%;
+  height: 30px;
+  object-fit: cover;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.profileNotification {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-5xl);
+}
+.profileNotification,
+.profileNotificationWrapper {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.addframe,
+.menuNav,
+.profileNotificationWrapper {
+  display: flex;
+  align-items: center;
+}
+.menuNav {
+  align-self: stretch;
+  background-color: var(--color-white);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-5xl) var(--padding-31xl);
+}
+.addframe {
+  width: 1526px;
+  background-color: #f0f2f5;
+  max-width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-23xl);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+}

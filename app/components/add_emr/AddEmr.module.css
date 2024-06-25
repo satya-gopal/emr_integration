@@ -1,0 +1,241 @@
+.iconBack {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.addEmrIntegration {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 100%;
+  font-weight: 500;
+  font-family: inherit;
+}
+.pageheader {
+  align-self: stretch;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.label {
+  cursor: pointer;
+  position: relative;
+  line-height: 110%;
+}
+.inputDate,
+.label {
+  align-self: stretch;
+}
+.todaysdateDateofrequest {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  min-width: 240px;
+}
+.label1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 400;
+  font-family: inherit;
+}
+.inputfield {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-base);
+  color: var(--color-darkgray);
+}
+.clientaddress,
+.clientformrow,
+.sectionRow {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.sectionRow {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.clientaddress,
+.clientformrow {
+  flex-direction: column;
+}
+.clientaddress {
+  height: 63px;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.clientformrow {
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.formfieldsChild,
+.internalUse {
+  align-self: stretch;
+  position: relative;
+}
+.formfieldsChild {
+  border-top: 1px solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  height: 1px;
+}
+.internalUse {
+  margin: 0;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 600;
+  font-family: inherit;
+}
+.title {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-darkslategray);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+}
+.integrationApproval {
+  cursor: pointer;
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+  font-weight: 500;
+}
+.selectType {
+  align-self: stretch;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-sm);
+  color: var(--color-silver);
+}
+.inputIntegrationapproval,
+.integrationrow,
+.internalrow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputIntegrationapproval {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  min-width: 240px;
+  color: var(--color);
+}
+.integrationrow,
+.internalrow {
+  align-self: stretch;
+}
+.integrationrow {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-xs);
+  font-size: var(--font-size-xs);
+  color: var(--color-slategray);
+}
+.internalrow {
+  flex-direction: column;
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.iconNotes {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.progressNotes {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 100%;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+}
+.headingTitle,
+.progressNote {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.progressNote {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-xs);
+  min-width: 240px;
+  font-size: var(--font-size-smi);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.buttonsSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-xs);
+}
+.formfields {
+  flex: 1;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-5xl);
+  gap: var(--gap-7xl);
+}
+.addSection,
+.addemr,
+.formfields,
+.formfiledsgroup {
+  display: flex;
+  justify-content: flex-start;
+}
+.formfiledsgroup {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: var(--font-size-xs);
+  color: var(--color-slategray);
+}
+.addSection,
+.addemr {
+  flex-direction: column;
+  align-items: center;
+}
+.addSection {
+  width: 100%;
+  gap: var(--gap-5xs);
+  max-width: 1200px;
+}
+.addemr {
+  align-self: stretch;
+  padding: 0 var(--padding-31xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray);
+  font-family: var(--font-poppins);
+}

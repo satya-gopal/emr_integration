@@ -1,0 +1,90 @@
+.loginIntoYour,
+.welcomeBack {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+}
+.welcomeBack {
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.loginIntoYour {
+  font-size: var(--font-size-lg);
+  color: var(--color-dimgray-100);
+}
+.pagetitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.inputemail {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-100);
+}
+.forminput {
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.forgotPassword {
+  text-decoration: none;
+  width: 480px;
+  flex: 1;
+  position: relative;
+  line-height: 100%;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+}
+.formgroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.inputgroup,
+.loginbutton {
+  align-self: stretch;
+}
+.inputgroup {
+  gap: var(--gap-13xl);
+  text-align: right;
+  font-size: var(--font-size-base-8);
+  color: var(--color-crimson);
+}
+.formsection,
+.inputgroup,
+.loginform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.loginform {
+  align-self: stretch;
+  gap: var(--gap-5xl);
+}
+.formsection {
+  width: 528px;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
